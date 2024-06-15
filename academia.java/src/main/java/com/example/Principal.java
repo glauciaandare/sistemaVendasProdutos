@@ -5,7 +5,7 @@ public class Principal {
         CarrinhoDeCompras carrinho1 = new CarrinhoDeCompras();
         CarrinhoDeCompras carrinho2 = new CarrinhoDeCompras();
 
-        // Adicionando produtos ao primeiro carrinho
+
         Eletronico e1 = new Eletronico("Smartphone", 2999.0, 12, 3);
         Roupa r1 = new Roupa("T-Shirt", 89.99, "M", "Preto", 6);
         Alimento a1 = new Alimento("Arroz", 9.99, "2024-12-31", 4);
@@ -14,7 +14,7 @@ public class Principal {
         carrinho1.adicionarItem(r1);
         carrinho1.adicionarItem(a1);
 
-        // Adicionando produtos ao segundo carrinho
+
         Eletronico e2 = new Eletronico("Laptop", 4999.0, 24, 2);
         Roupa r2 = new Roupa("Jaqueta", 299.99, "L", "Azul", 1);
         Alimento a2 = new Alimento("Feijão", 7.99, "2024-11-30", 5);
@@ -23,17 +23,17 @@ public class Principal {
         carrinho2.adicionarItem(r2);
         carrinho2.adicionarItem(a2);
 
-        // Listando e calculando total dos produtos no primeiro carrinho
+
         System.out.println("Carrinho 1:");
         carrinho1.listarItens();
         System.out.println("Total: " + carrinho1.calcularTotal());
 
-        // Listando e calculando total dos produtos no segundo carrinho
+
         System.out.println("\nCarrinho 2:");
         carrinho2.listarItens();
         System.out.println("Total: " + carrinho2.calcularTotal());
 
-        // Gerando arquivos de texto
+
         carrinho1.gerarArquivoTexto("carrinho1.txt");
         carrinho2.gerarArquivoTexto("carrinho2.txt");
     }
