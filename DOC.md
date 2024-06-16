@@ -28,7 +28,7 @@ A classe `Principal` cria instâncias de `CarrinhoDeCompras`, adiciona produtos 
 
 #### Exemplos de Uso
 
-```json
+```
 CarrinhoDeCompras carrinho1 = new CarrinhoDeCompras();
 Eletronico e1 = new Eletronico("Smartphone", 2999.0, 12, 3);
 Roupa r1 = new Roupa("T-Shirt", 89.99, "M", "Preto", 6);
