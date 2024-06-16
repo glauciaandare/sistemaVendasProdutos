@@ -53,8 +53,8 @@ Atributos adicionais:
 Métodos:
 
 - Construtores:
-  - `public Eletronico(String nome, double preco, int garantiaMeses, int quantidade)`
-  - `public Eletronico()`
+- `public Eletronico(String nome, double preco, int garantiaMeses, int quantidade)`
+- `public Eletronico()`
 - `public int getGarantiaMeses();`
 - `public void setGarantiaMeses(int garantiaMeses);`
 - Implementar o método `exibirDetalhes()`, exibindo e retornando todas as informações do eletrônico.
@@ -72,8 +72,8 @@ Atributos adicionais:
 Métodos:
 
 - Construtores:
-  - `public Roupa(String nome, double preco, String tamanho, String cor, int quantidade)`
-  - `public Roupa()`
+- `public Roupa(String nome, double preco, String tamanho, String cor, int quantidade)`
+- `public Roupa()`
 - `public String getTamanho();`
 - `public void setTamanho(String tamanho);`
 - `public String getCor();`
@@ -92,8 +92,8 @@ Atributos adicionais:
 Métodos:
 
 - Construtores:
-  - `public Alimento(String nome, double preco, String dataValidade, int quantidade)`
-  - `public Alimento();`
+- `public Alimento(String nome, double preco, String dataValidade, int quantidade)`
+- `public Alimento();`
 - `public String getDataValidade();`
 - `public void setDataValidade(String dataValidade);`
 - Implementar o método `exibirDetalhes()`, exibindo todas as informações do alimento.
@@ -108,7 +108,7 @@ Atributos:
 Métodos:
 
 - Construtor:
-  - `public CarrinhoDeCompras()`, inicializando a lista de itens.
+- `public CarrinhoDeCompras()`, inicializando a lista de itens.
 - `public void adicionarItem(Produto produto)`, para adicionar um produto ao carrinho.
 - `public void removerItem(Produto produto)`, para remover um produto do carrinho.
 - `public void listarItens()`, para exibir os detalhes de todos os produtos no carrinho.
