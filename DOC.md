@@ -2,7 +2,7 @@
 marp: true
 title: Marp
 paginate: true
-theme: uncover
+
 class: invert
 ---
 
@@ -31,9 +31,6 @@ Este projeto é um sistema de vendas de produtos implementado em Java utilizando
    * **Interface Produto**: Define métodos para manipulação de produtos.
    * **Classe Abstrata ProdutoBase**: Implementa a interface Produto.
    * **Classe Eletronico**: Herda de ProdutoBase e adiciona atributos específicos.
-
----
-
    * **Classe Roupa**: Herda de ProdutoBase e adiciona atributos específicos.
    * **Classe Alimento**: Herda de ProdutoBase e adiciona atributos específicos.
    * **Classe CarrinhoDeCompras**: Gerencia uma lista de produtos.
